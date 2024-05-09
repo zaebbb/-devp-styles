@@ -30,11 +30,13 @@ import { classNames } from '@devproger/styles'
 
 function App() {
   return (
-      <div className={
-        classNames(cls.Main, { [cls.ModeClass]: true }, [cls.AdditionalClass])}
-      >
-        Test
-      </div>
+    <div 
+      className={
+        classNames(cls.Main, { [cls.ModeClass]: true }, [cls.AdditionalClass])
+      }
+    >
+      Test
+    </div>
   )
 }
 ```
