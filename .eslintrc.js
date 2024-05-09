@@ -109,6 +109,9 @@ module.exports = {
       'warn',
     ],
     'unused-imports/no-unused-imports': 'error',
-
   },
+  ignorePatterns: [
+    'vite.config.ts',
+    'dist/**/*',
+  ],
 }

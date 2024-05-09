@@ -10,13 +10,12 @@
   },
   "exclude": [
     "node_modules",
-    "dist"
+    "./dist/**/*.{ts,js}"
   ],
   "include": [
     "./.eslintrc.js",
     "./babel.config.js",
     "./jest.config.ts",
-//    "./vite.config.ts",
     "./src/**/*.ts"
   ]
 }
