@@ -1,5 +1,6 @@
 {
   "name": "@devp/styles",
+  "private": false,
   "version": "1.0.0",
   "description": "Вспомогательные утилиты для работы со стилями",
   "main": "dist/@devp/styles.js",
