@@ -1,11 +1,11 @@
 {
-  "name": "@devp/styles",
+  "name": "@devproger/styles",
   "private": false,
   "version": "1.0.0",
   "description": "Вспомогательные утилиты для работы со стилями",
-  "main": "dist/@devp/styles.js",
+  "main": "dist/@devpoger/styles.js",
   "types": "dist/index.d.ts",
-  "module": "dist/@devp/styles.js",
+  "module": "dist/@devpoger/styles.js",
   "prepublish": "npm run build && npm run test && npm run lint:ts",
   "scripts": {
     "dev": "vite",

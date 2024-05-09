@@ -11,8 +11,8 @@ export default defineConfig({
     },
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: '@devp/styles',
-      fileName: '@devp/styles',
+      name: '@devproger/styles',
+      fileName: '@devproger/styles',
     },
     minify: true,
   },
