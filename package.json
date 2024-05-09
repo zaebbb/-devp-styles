@@ -2,10 +2,19 @@
   "name": "@devproger/styles",
   "private": false,
   "version": "1.0.1",
+  "exports": {
+    ".": {
+      "import": "./dist/@devproger/styles.mjs.js",
+      "require": "./dist/@devproger/styles.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "description": "Вспомогательные утилиты для работы со стилями",
   "main": "dist/@devpoger/styles.js",
   "types": "dist/index.d.ts",
-  "module": "dist/@devpoger/styles.js",
+  "module": "dist/@devpoger/styles.mjs.js",
   "prepublish": "npm run build && npm run test && npm run lint:ts",
   "scripts": {
     "dev": "vite",
@@ -34,6 +43,7 @@
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-typescript": "^7.24.1",
     "@jest/globals": "^29.7.0",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "babel-jest": "^29.7.0",
@@ -45,7 +55,9 @@
     "eslint-plugin-unused-imports": "^3.2.0",
     "husky": "^9.0.11",
     "jest": "^29.7.0",
+    "rollup-plugin-typescript-paths": "^1.5.0",
     "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vite-plugin-dts": "^3.9.1"

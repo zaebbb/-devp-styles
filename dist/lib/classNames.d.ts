@@ -1,5 +1,4 @@
-import { Additional, Mods } from '../types/classNames';
-
+import { type Additional, type Mods } from '../types/classNames';
 /**
  * @description
  * Преобразование данных для css класса в строку

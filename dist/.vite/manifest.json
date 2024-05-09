@@ -1,0 +1,8 @@
+{
+  "src/index.ts": {
+    "file": "@devproger/styles.js",
+    "name": "main",
+    "src": "src/index.ts",
+    "isEntry": true
+  }
+}
