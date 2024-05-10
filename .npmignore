@@ -1,6 +1,6 @@
 README.md
 tsconfig.json
 jest.config.ts
-babel.config.js
+babel.config.json
 .husky/
 src/

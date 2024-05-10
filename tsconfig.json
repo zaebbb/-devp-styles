@@ -14,7 +14,7 @@
   ],
   "include": [
     "./.eslintrc.js",
-    "./babel.config.js",
+    "./babel.config.json",
     "./jest.config.ts",
     "./src/**/*.ts"
   ]
